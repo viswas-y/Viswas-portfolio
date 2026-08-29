@@ -68,11 +68,53 @@ const projects: Project[] = [
     description: "An automated food booking manager for campus residences designed to map out meals and control resources.",
     highlights: [
       "Interactive meal pre-booking calendar and QR/account check-in",
-      "Substantial decrease in food waste by mapping quantities daily",
+      "Substantial decrease in food waste by mapping daily quantities",
       "Robust CRUD engine managing active student registers"
     ],
     techStack: ["Node.js", "Express.js", "MongoDB", "Mongoose"],
     githubUrl: "https://github.com/viswas-y",
+  },
+  {
+    title: "AURA — Curated Tech & Lifestyle Essentials",
+    category: "Commercial E-Commerce Storefront",
+    description: "A premium shopping platform configured for high-performance product sorting, slick modern checkouts, and seamless UX transitions.",
+    highlights: [
+      "Dynamic catalog filters and reactive shopping cart flows",
+      "Stunning, fluid product display grids optimized for mobile retention",
+      "Robust client-side state mapping ensuring zero-delay actions"
+    ],
+    techStack: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "TypeScript"],
+    liveUrl: "https://aura-7ucazow73-viswas-dev.vercel.app/",
+    githubUrl: "https://github.com/viswas-y",
+    isPrivate: true,
+  },
+  {
+    title: "NOVARA — Premium Designer Essentials",
+    category: "Luxury E-Commerce Platform",
+    description: "A minimal, luxury brand showroom and designer merchandise portal built to prioritize premium visual aesthetics and high conversions.",
+    highlights: [
+      "Ultra-slick transitions and immersive card animations",
+      "Seamless checkout funnel integration boosting sales capture",
+      "Stunning layout adapter ensuring premium visual feel"
+    ],
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    liveUrl: "https://ecommerce-sale-gamma.vercel.app/",
+    githubUrl: "https://github.com/viswas-y",
+    isPrivate: true,
+  },
+  {
+    title: "Ambalapuzha Temple Information Guide",
+    category: "Cultural Blog & Guide",
+    description: "An authentic, media-rich cultural portal and informational blog repository dedicated to the heritage archives of the Ambalapuzha Sree Krishna Temple.",
+    highlights: [
+      "Dynamic event timetable scheduler and notifications bulletin",
+      "Optimized SEO performance with high localized search rankings",
+      "Integrated asset pipeline loading rich imagery with zero visual lag"
+    ],
+    techStack: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+    liveUrl: "https://amabalapuzha.vercel.app/",
+    githubUrl: "https://github.com/viswas-y",
+    isPrivate: true,
   },
 ];
 
